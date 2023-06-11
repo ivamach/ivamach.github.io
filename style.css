@@ -1,0 +1,25 @@
+.header {
+  background-color: purple;
+  height: 50px;
+  width: 100%;
+}
+ button {
+  width: 100px;
+  height: 30px;
+  background-color: cyan;
+  margin: 5px;
+}
+.content {
+  height: 500px;
+  background-color: yellow;
+  width: 75%;
+  flex-grow: 4;
+}
+.sidePanel {
+  background-color: lime;
+  width: 25%;
+  flex-grow: 1;
+}
+.page {
+  display: flex;
+  }
