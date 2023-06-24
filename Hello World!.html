@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://cedar-stirring-hardcover.glitch.me/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
+
+    <!-- 
+      The website stylesheet
+      This connects your CSS file to your HTML
+    -->
+    <link rel="stylesheet" href="./Hello World!_files/style.css">
+
+    <!-- 
+      Here you can import your fonts
+      You can find all sort of fonts here: https://fonts.google.com/ 
+      Find the one that you like and copy hte <link> part from Selected family
+    -->
+    <link href="./Hello World!_files/css2" rel="stylesheet">
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+      We have already prepared basic structure for your elements, but you can change them anyway you like
+    -->
+    <div class="wrapper">
+      <div class="content">
+        <!-- Our main title -->
+        <h1 class="title">Hello World!</h1>
+        <!-- 
+          Here you can implement the logo from assets folder
+          For source attribute you will need to copy the url link of the picture,
+          because it's uploaded online
+        -->
+        <img class="logo" src="./Hello World!_files/thumbnails_green_fox_logo.png">
+        <!-- 
+          This is our main text area
+          Look closely on the page that you should recreate and figure out what tags you have to add
+        -->
+        <div class="main">
+          <h2>Beginning of soething big</h2>
+
+          <p>Welcome to my <strong>First Website project!</strong> First let me introduce myself. My name is Bruce Wayne and I want to become the very best software developer, that works by day and protect innocents by night. Here is a list of my biggest achievements:</p>
+          <div class="list">
+            <ul>
+            <li>Own multibillion company Wayne Enterproses</li>
+            <li>Defeatd Joker and sent him to Arkham Asylum</li>
+            <li>Fougth alliens to save Gotham City</li>
+            <li>Looking way better than Clark Kent</li>
+          </ul>
+          </div>
+          <!--  Add more elements and style them in the CSS file -->
+        </div>
+      </div>
+    </div>
+  
+
+<style>
+                            .lo-wrap {
+                               position: fixed;
+                               z-index: 999999;
+                               margin: auto;
+                               top: 0;
+                               left: 0;
+                               bottom: 0;
+                               right: 0;
+
+                            }
+
+                            .lo-wrap:before {
+                               content: '';
+                               display: block;
+                               position: fixed;
+                               top: 0;
+                               left: 0;
+                               width: 100%;
+                               height: 100%;
+                               background-color: rgba(255,255,255,0.6);
+                            }
+
+                            .lo-wrap:not(:required) {
+                               font: 0/0 a;
+                               color: transparent;
+                               text-shadow: none;
+                               background-color: rgba(255, 255, 255, 0.5803921568627451);
+                               border: 0;
+                            }
+
+                            .lo-wrap:not(:required):after {
+                               content: '';
+                               display: block;
+                               font-size: 10px;
+                               width: 1em;
+                               height: 1em;
+                               position:fixed;
+                               top:50%;
+                               left:50%;
+                               margin-top: -0.5em;
+                               margin-left: -0.5em;
+                               -webkit-animation: lo-spin 1500ms infinite linear;
+                               -moz-animation: lo-spin 1500ms infinite linear;
+                               -ms-animation: lo-spin 1500ms infinite linear;
+                               -o-animation: lo-spin 1500ms infinite linear;
+                               animation: lo-spin 1500ms infinite linear;
+                               border-radius: 0.5em;
+                               -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+                               box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+                            }
+
+
+                            @-webkit-keyframes lo-spin {
+                               0% {
+                                  -webkit-transform: rotate(0deg);
+                                  -moz-transform: rotate(0deg);
+                                  -ms-transform: rotate(0deg);
+                                  -o-transform: rotate(0deg);
+                                  transform: rotate(0deg);
+                               }
+                               100% {
+                                  -webkit-transform: rotate(360deg);
+                                  -moz-transform: rotate(360deg);
+                                  -ms-transform: rotate(360deg);
+                                  -o-transform: rotate(360deg);
+                                  transform: rotate(360deg);
+                               }
+                            }
+                            @-moz-keyframes lo-spin {
+                               0% {
+                                  -webkit-transform: rotate(0deg);
+                                  -moz-transform: rotate(0deg);
+                                  -ms-transform: rotate(0deg);
+                                  -o-transform: rotate(0deg);
+                                  transform: rotate(0deg);
+                               }
+                               100% {
+                                  -webkit-transform: rotate(360deg);
+                                  -moz-transform: rotate(360deg);
+                                  -ms-transform: rotate(360deg);
+                                  -o-transform: rotate(360deg);
+                                  transform: rotate(360deg);
+                               }
+                            }
+                            @-o-keyframes lo-spin {
+                               0% {
+                                  -webkit-transform: rotate(0deg);
+                                  -moz-transform: rotate(0deg);
+                                  -ms-transform: rotate(0deg);
+                                  -o-transform: rotate(0deg);
+                                  transform: rotate(0deg);
+                               }
+                               100% {
+                                  -webkit-transform: rotate(360deg);
+                                  -moz-transform: rotate(360deg);
+                                  -ms-transform: rotate(360deg);
+                                  -o-transform: rotate(360deg);
+                                  transform: rotate(360deg);
+                               }
+                            }
+                            @keyframes lo-spin {
+                               0% {
+                                  -webkit-transform: rotate(0deg);
+                                  -moz-transform: rotate(0deg);
+                                  -ms-transform: rotate(0deg);
+                                  -o-transform: rotate(0deg);
+                                  transform: rotate(0deg);
+                               }
+                               100% {
+                                  -webkit-transform: rotate(360deg);
+                                  -moz-transform: rotate(360deg);
+                                  -ms-transform: rotate(360deg);
+                                  -o-transform: rotate(360deg);
+                                  transform: rotate(360deg);
+                               }
+                            }
+                            </style></body></html>
